@@ -1,0 +1,20 @@
+{
+	"name": "litcoffee",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "none",
+	"contributes": {
+		"languages": [{
+			"id": "litcoffee",
+			"aliases": ["CoffeeScript (Literate)", "litcoffee"],
+			"extensions": [".litcoffee",".litcoffee.erb",".coffee.md"]
+		}],
+		"grammars": [{
+			"language": "litcoffee",
+			"scopeName": "source.litcoffee",
+			"path": "./syntaxes/litcoffee.tmLanguage"
+		}]
+	}
+}
